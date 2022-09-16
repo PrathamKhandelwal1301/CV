@@ -2,23 +2,32 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta name="viewport" content="width=1000, initial-scale=1.0" charset="utf-8">
-  <title>Pratham Khandelwal's Personal site</title>
+  <meta name="viewport" content="width= device-width, initial-scale=1.0" charset="utf-8"> <!-- this is to define page width and make it move with the size of the window it is displayed on -->
+  <title>Pratham Khandelwal's Personal site</title><!-- main heading of the webpage to be displayed on the tab-->
 </head>
 
-<body style = "background color : #EEF2F6">
-  <table cellspacing = "25">
+<body style="background color : #EEF2F6">
+  <!--body defining tag with little bit of css for background color-->
+  <table cellspacing="25">
+    <!-- table starts here-->
     <thead>
+      <!-- heading tag for the table-->
     </thead>
     <tbody>
+      <!-- body tag fof the table-->
       <tr>
-        <td><img src="IMG_20220113_170650_985.webp" alt="my picture" height="270" width="180" /></td>
+        <!-- used to make a row in the table -->
         <td>
-          <h1>Pratham Khandelwal</h1>
+          <!-- defines the cell in that row -->
+          <img src="IMG_20220113_170650_985.webp" alt="my picture" height="270" width="180" /><!-- image element with alt if image cant be loaded, height and width is also defined-->
+        </td>
+        <td>
+          <h1>Pratham Khandelwal</h1><!-- level 1 heading this is the largest heading that can be used using html-->
           <p>
+            <!-- paragraph element used when u want to write a paragraph-->
             <em>I am student in</em> <strong>Thapar institute of engg. and tech</strong>
-            <br>
-            <em>pursuing the course of Electrical and Computer Science</em>
+            <br><!-- break tag used to break a line kindof like enter-->
+            <em>pursuing the course of Electrical and Computer Science</em><!-- emphasis tag used to make the text italic and emphasised-->
             <br>
             <em>Currently learning c++ and Full stack web development</em>
           </p>
@@ -31,13 +40,15 @@
       </tr>
     </tbody>
   </table>
-  <hr size="2" noshade />
+  <hr size="2" noshade /><!-- horizontal line tag used to make a horizontal line with size = thickness greater the number greater the thickness and noshade is used to remove the default css of the horizontal rule-->
   <ol type="I">
+    <!-- ordered list tag with the type of bullets "I" for roman "1" for arabic and "i" for small roman-->
     <li>
       <h3> Education </h3>
     </li>
     <ul>
-      <li><strong>10th qualification:</strong></li>
+      <!--  unordered list used when u dont need to nummber ur list rather just want to use bullets-->
+      <li><strong>10th qualification:</strong></li><!-- li tag used to mention elements of an ordered or unordered list-->
       <table>
         <thead>
         </thead>
@@ -61,7 +72,7 @@
         </tbody>
       </table>
       <br />
-      <li><strong>12th qualifications:</strong></li>
+      <li><strong>12th qualifications:</strong></li><!-- strong tag used to make the text bold-->
       <table>
         <thead>
         </thead>
@@ -108,39 +119,42 @@
         <li><strong>Session 2 :</strong> 91.2343984</li>
       </ul>
     </ol>
-    <li><h3><strong>Skills: </strong></h3</li>
-    <table cellspacing = "10">
-      <thead>
-        <tr>
-          <th>Skill</th>
-          <th>Rating</th>
-          <th>Skill</th>
-          <th>Rating</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Web Development</td>
-          <td>⭐</td>
-          <td>Cycling</td>
-          <td>⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-          <td>C++</td>
-          <td>⭐</td>
-          <td>Gaming</td>
-          <td>⭐⭐⭐</td>
-        </tr>
-      </tbody>
-    </table>
+    <li>
+      <h3><strong>Skills: </strong></h3< /li>
+        <table cellspacing="10">
+          <!-- cellspacing attribute is used to increase the distance between cells in a table-->
+          <thead>
+            <tr>
+              <th>Skill</th>
+              <th>Rating</th>
+              <th>Skill</th>
+              <th>Rating</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Web Development</td>
+              <td>⭐</td>
+              <td>Cycling</td>
+              <td>⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>C++</td>
+              <td>⭐</td>
+              <td>Gaming</td>
+              <td>⭐⭐⭐</td>
+            </tr>
+          </tbody>
+        </table>
   </ol>
   <hr size="2" noshade />
   <ol type="I" start="4">
+    <!-- start attribute used to start an ordered list from that paticular number-->
     <li>
       <h3>My Socials</h3>
     </li>
     <ul>
-      <li><strong>Instagram : </strong><a href="https://www.instagram.com/_.pratham1301._/"> @_.pratham1301._</a></li>
+      <li><strong>Instagram : </strong><a href="https://www.instagram.com/_.pratham1301._/"> @_.pratham1301._</a></li><!-- website tag to incorporate a hyperlink in ur webpage-->
       <!--this is an extralnal website anchor tag-->
       <li><strong>Linkedin : </strong><a href="https://www.linkedin.com/in/pratham-khandelwal-b7b139222/">@Pratham Khandelwal</a></li>
       <li><strong>Twitter : </strong><a href="https://twitter.com/Pratham_K1301">@Pratham_K1301</a></li>
@@ -150,4 +164,5 @@
     </li>
   </ol>
 </body>
+
 </html>
