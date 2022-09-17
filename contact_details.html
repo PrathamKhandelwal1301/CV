@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>My contact details</title>
+</head>
+
+<body>
+  <form class="contact-form" action="mailto: prathamkhandelwal1320@gmail.com" method="post" enctype="text/plain">
+    <!--form tag to make a form then mailto attribute to open mail directly to mail to a specific mail id enctype is to define the encoding type of the text input of the form-->
+    <div class="contact-form">
+      <!-- the div element is used to group different elements of a web page toghether so they can be easily styled using css-->
+      <label>Your Name : </label><!-- renders the text in the form -->
+      <input type="text" name="My name" value=""><br><!-- for the input field and the type of input to accept-->
+    </div>
+    <div class="contact-form">
+      <label>DOB : </label>
+      <input type="date" name="My DOB" value=""><br>
+    </div>
+    <div class="contact-form">
+      <label>Your Email address</label>
+      <input type="email" name="My email" value=""><br />
+    </div>
+    <div class = "contact reason">
+      <label>Reason for contacting</label><br>
+    </div>
+    <div class = "radio">
+      <input type="radio" name="radio" id="contactreason1" value="Query"><!-- input type radio should have the same name for all the radio buttons through which only one is to be selected-->
+      <label for="contactreason1"> Query</label><br><!-- for attribute defines for which radio button this labe is for-->
+    </div>
+    <div class = "radio">
+      <input type="radio" name="radio" id="contactreason2" value="Infromal Communication">
+      <label for="contactreason2"> Informal Communication</label><br>
+    </div>
+    <div class = "radio">
+      <input type="radio" name="radio" id="contactreason3" value="Formal communication">
+      <label for="contactreason3"> formal Communication</label><br>
+    </div>
+    <div class = "radio">
+      <input type="radio" name="radio" id="contactreason4" value="Complaint">
+      <label for="contactreason4"> Complaint</label><br>
+    </div>
+    <div class = "radio">
+      <input type="radio" name="radio" id="contactreason5" value="Invitation">
+      <label for="contactreason5">Invitation</label><br>
+    </div>
+    <div class = "radio">
+      <input type="radio" name="radio" id="contactreason6" value="others">
+      <label for="contactreason6">Others</label><br>
+    </div>
+    <div class = "your message">
+      <label>Your Message : </label><br>
+      <textarea name="My Message" rows="8" cols="80"></textarea><br><!-- text area renders an area in which long pragraphs can be entered-->
+    </div>
+    <div class = "newsletter">
+      <label>Do you want to subscribe to our email newsletter</label>
+      <input type="checkbox" name="" value=""><br>
+      <input type="submit" name="" />
+    </div>
+  </form>
+  <h1>My contact details</h1>
+  <ul>
+    <li><strong>Phone no: </strong>+91-9958733773</li>
+    <li><strong>Email - Id: </strong> prathamkhandelwal1320@gmail.com</li>
+    <li><strong><a href="index.html">Socials</a></strong></li>
+  </ul>
+</body>
+
+</html>
