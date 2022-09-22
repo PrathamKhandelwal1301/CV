@@ -1,0 +1,16 @@
+/* specifying that we want to style the whole body of the webpage*/
+    body {
+      background-color: #FFF5E4;
+    }
+    hr {
+      border-style : none;
+      border-top-style: dotted;
+      border-color : #EE6983;
+      border-width: 10px;
+      width : 5%;
+    }
+    img{
+      border-radius: 100%;
+      height : 50%;
+      width : 50%;
+    }
