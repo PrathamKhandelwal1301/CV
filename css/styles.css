@@ -1,14 +1,22 @@
 /* specifying that we want to style the whole body of the webpage*/
     body {
-      background-color: #FFF5E4;
+      background-color: #EEF2E6;
+
     }
     hr {
       border-style : none;
       border-top-style: dotted;
-      border-color : #EE6983;
+      border-color : #D6CDA4;
       border-width: 10px;
       width : 5%;
     }
     img{
       border-radius: 200%;
+      height: auto;
+    }
+    h1{
+      color: #1C6758;
+    }
+    h3{
+      color: #1C6758;
     }
