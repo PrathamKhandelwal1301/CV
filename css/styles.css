@@ -1,22 +1,36 @@
-/* specifying that we want to style the whole body of the webpage*/
-    body {
-      background-color: #EEF2E6;
+/************************************************TAG SELECTORS***************************************************/
 
-    }
-    hr {
-      border-style : none;
-      border-top-style: dotted;
-      border-color : #D6CDA4;
-      border-width: 10px;
-      width : 5%;
-    }
-    img{
-      border-radius: 200%;
-      height: auto;
-    }
-    h1{
-      color: #1C6758;
-    }
-    h3{
-      color: #1C6758;
-    }
+/* specifying that we want to style the whole body of the webpage*/
+  body {
+    background-color: #EEF2E6;
+  }
+  hr {
+    border-style : none;
+    border-top-style: dotted;
+    border-color : #D6CDA4;
+    border-width: 10px;
+    width : 5%;
+  }
+  img{
+    border-radius: 200%;
+    height: auto;
+  }
+  h3{
+    color: #1C6758;
+    font-size: 20px;
+  }
+
+/******************************************CLASS SELECTORS(can be used for multiple tags and is not unique for a specific tag)***************/
+  .myname{
+    font-size: 50px;
+    color: #1C6758;
+  }
+  .subheadings{
+    font-size: 19px;
+    color: #3D8361;
+  }
+/******************************************ID SELECTORS(can't be ued for multiple tags and is unique for a paticular tag)********************/
+  #heading{
+    font-size: 19px;
+    color: #1C6758;
+  }
