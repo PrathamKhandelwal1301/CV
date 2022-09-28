@@ -27,7 +27,8 @@
   </style> THIS WAS THE INTERNAL CSS I USED BEFORE USING EXTERNAL CSS-->
 </head>
 
-<body> <!--style="background : #FFF5E4;" Can also be used and is called inline css and costs a lot of time and changes only one tag-->
+<body>
+  <!--style="background : #FFF5E4;" Can also be used and is called inline css and costs a lot of time and changes only one tag-->
   <!--body defining tag with little bit of css for background color-->
   <table cellspacing="25">
     <!-- table starts here-->
@@ -40,10 +41,10 @@
         <!-- used to make a row in the table -->
         <td>
           <!-- defines the cell in that row -->
-          <img src="IMG_20220113_170650_985.webp" alt="my picture" height="270" width="180"/><!-- image element with alt if image cant be loaded, height and width is also defined-->
+          <img src="IMG_20220113_170650_985.webp" alt="my picture" height="270" width="180" /><!-- image element with alt if image cant be loaded, height and width is also defined-->
         </td>
         <td>
-          <h1>Pratham Khandelwal</h1><!-- level 1 heading this is the largest heading that can be used using html-->
+          <h1 class="myname">Pratham Khandelwal</h1><!-- level 1 heading this is the largest heading that can be used using html-->
           <p>
             <!-- paragraph element used when u want to write a paragraph-->
             <em>I am student in</em> <strong>Thapar institute of engg. and tech</strong>
@@ -65,11 +66,11 @@
   <ol type="I">
     <!-- ordered list tag with the type of bullets "I" for roman "1" for arabic and "i" for small roman-->
     <li>
-      <h3> Education </h3>
+      <h3 class="headings"> Education </h3>
     </li>
     <ul>
       <!--  unordered list used when u dont need to nummber ur list rather just want to use bullets-->
-      <li><strong>10th qualification:</strong></li><!-- li tag used to mention elements of an ordered or unordered list-->
+      <li class="subheadings"><strong>10th qualification:</strong></li><!-- li tag used to mention elements of an ordered or unordered list-->
       <table>
         <thead>
         </thead>
@@ -93,7 +94,7 @@
         </tbody>
       </table>
       <br />
-      <li><strong>12th qualifications:</strong></li><!-- strong tag used to make the text bold-->
+      <li class="subheadings"><strong>12th qualifications:</strong></li><!-- strong tag used to make the text bold-->
       <table>
         <thead>
         </thead>
@@ -117,16 +118,16 @@
         </tbody>
       </table>
       <br />
-      <li><strong>Graduation: </strong></li>
+      <li class="subheadings"><strong>Graduation: </strong></li>
       <ul>
         <li><em>Currently pursuing<strong> Electrical and computer engineering </strong>from Thapar Institute of Engg and Tech Batch (2022 - 2026)</em></li>
       </ul>
     </ul>
     <li>
-      <h3><strong>Competitive Exams Given:</strong></h3>
+      <h3 class="headings"><strong>Competitive Exams Given:</strong></h3>
     </li>
     <ol>
-      <li><strong>JEE Mains in 2021</strong></li>
+      <li class="subheadings"><strong>JEE Mains in 2021</strong></li>
       <ul>
         <li><strong>Session 1 :</strong> 87.4627452</li>
         <li><strong>Session 2 :</strong> 84.4932679</li>
@@ -134,14 +135,14 @@
         <li><strong>Session 4 :</strong> 86.4263275</li>
       </ul>
       <br />
-      <li><strong>JEE Mains in 2022</strong></li>
+      <li class="subheadings"><strong>JEE Mains in 2022</strong></li>
       <ul>
         <li><strong>Session 1 :</strong> 92.6412875</li>
         <li><strong>Session 2 :</strong> 91.2343984</li>
       </ul>
     </ol>
     <li>
-      <h3><strong>Skills: </strong></h3< /li>
+      <h3 id="heading"><strong>Skills: </strong></h3< /li>
         <table cellspacing="10">
           <!-- cellspacing attribute is used to increase the distance between cells in a table-->
           <thead>
@@ -172,7 +173,7 @@
   <ol type="I" start="4">
     <!-- start attribute used to start an ordered list from that paticular number-->
     <li>
-      <h3>My Socials</h3>
+      <h3 class="headings">My Socials</h3>
     </li>
     <ul>
       <li><strong>Instagram : </strong><a href="https://www.instagram.com/_.pratham1301._/"> @_.pratham1301._</a></li><!-- website tag to incorporate a hyperlink in ur webpage-->
